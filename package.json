@@ -1,0 +1,32 @@
+{
+  "name": "serverless-graphql-dynamodb",
+  "description": "Serverless NodeJS, GraphQL, DynamoDB app built with the Serverless Framework and AWS Lambda",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alexander Zhukov",
+    "email": "zbox82@gmail.com"
+  },
+  "license": "MIT",
+  "tags": [
+    "serverless",
+    "aws",
+    "graphql",
+    "nodejs",
+    "dynamodb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zbox/serverless-graphql-dynamodb.git"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^7.1.3",
+    "aws-sdk": "^2.840.0",
+    "graphql": "^15.5.0"
+  },
+  "scripts": {
+    "start": "sls offline start"
+  },
+  "devDependencies": {
+    "serverless-offline": "^6.8.0"
+  }
+}
